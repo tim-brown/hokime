@@ -1,0 +1,5 @@
+**/*.swp
+.lein-repl-history
+.nrepl-port
+project.clj
+target

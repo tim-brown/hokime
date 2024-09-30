@@ -1,0 +1,14 @@
+{
+ :deps {
+        com.github.javaparser/javaparser-symbol-solver-core {:mvn/version "3.20.2"}
+        com.github.javaparser/javaparser-core {:mvn/version "3.20.2"}
+        philoskim/debux {:mvn/version "0.9.0"}
+        }
+
+ :paths ["src/main"]
+ :aliases {
+           :test {
+                  :extra-paths ["src/test" "resources"]
+                  }
+           }
+ }
